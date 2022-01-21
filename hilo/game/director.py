@@ -44,7 +44,7 @@ class Director:
             self.do_outputs()
 
     def get_inputs(self):
-        """Ask the user if they want to roll.
+        """Ask the user if they want to play
 
         Args:
             self (Director): An instance of Director.
@@ -88,7 +88,7 @@ class Director:
         
 
     def do_outputs(self):
-        """Displays the dice and the score. Also asks the player if they want to roll again. 
+        """Displays the dice and the score. Also asks the player if they want to play again. 
 
         Args:
             self (Director): An instance of Director.
