@@ -26,5 +26,5 @@ class Hilo:
         Args:
             self (Die): An instance of Die.
         """
-        self.value = random.randint(1,13)
+        self.value =  random.randint(1,13)
         self.points = 50 if self.value == 5 else 100 if self.value == 1 else 0
