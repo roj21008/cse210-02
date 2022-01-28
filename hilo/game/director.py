@@ -1,4 +1,4 @@
-from game.card import Card
+from Card.card import Card
 #import random
 
 class Director:

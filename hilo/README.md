@@ -15,14 +15,23 @@ You can also run the program from an IDE like Visual Studio Code. Start your IDE
 project folder. Select the main module inside the dice folder and click the "run" button.
 
 ## Project Structure
+
 ---
+
 The project files and folders are organized as follows:
 
-hilo                    (project root folder)
-+-- hilo                (source code for game)
-  +-- game              (specific classes)
-  +-- __main__.py       (program entry point)
-+-- README.md           (general info)
+```
+root                    (project root folder)
++-- Hilo                (source code folder)
+  +-- Card              (source code folder)
+    +-- card.py         (specific classes)
+  +-- .py               (program entry point)
+  +-- README.md         (general info)
+  +-- directory.py      (control sequence of the game)
+  +-- main.py           (program entry point)
++-- .DS_Store
++-- .gitignore
+```
 
 
 ## Required Technologies
