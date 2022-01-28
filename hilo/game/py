@@ -32,4 +32,3 @@ while play == 'y':
 
     play = input(f'\nPlay again? [y/n] ')
     card = next_card
-

@@ -5,7 +5,6 @@ class Director:
     """A person who directs the game. 
     
     The responsibility of a Director is to control the sequence of play.
-
     Attributes:
         card: The current card
         is_playing (boolean): Whether or not the game is being played.
@@ -40,7 +39,6 @@ class Director:
     def get_inputs(self):
         """Ask the user if they want to select higher or 
         lower based off the first card.
-
         Args:
             self (Director): An instance of Director.
         """
@@ -53,7 +51,6 @@ class Director:
   
     def do_updates(self):
         """Updates the player's score.
-
         Args:
             self (Director): An instance of Director.
         """
@@ -71,7 +68,6 @@ class Director:
 
     def do_outputs(self):
         """Displays the new card and the score. Also asks the player if they want to play again. 
-
         Args:
             self (Director): An instance of Director.
         """
